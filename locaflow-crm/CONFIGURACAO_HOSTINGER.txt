@@ -1,0 +1,23 @@
+CRMLOCAR v1.0.4 — CONFIGURAÇÃO HOSTINGER
+
+No site publicado: Aplicação Node.js > Variáveis de ambiente.
+Adicione cada chave/valor; substitua apenas as duas senhas:
+
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=u426849489_locarcrm
+DB_USER=u426849489_locarcrm
+DB_PASSWORD=COLE_A_SENHA_REAL_DO_MYSQL
+APP_ORIGIN=https://shiny-goldenrod-penguin-71.hostingersite.com
+NODE_ENV=production
+TRUST_PROXY=1
+ADMIN_EMAIL=hiagooslv4@gmail.com
+ADMIN_PASSWORD=CRIE_UMA_SENHA_MASTER_FORTE
+
+1) Senha MySQL: use a senha do usuario MySQL, nao a senha do site.
+2) A senha Master deve ter pelo menos 12 caracteres e nao pode ser um exemplo.
+3) Salve e reimplante a aplicacao; verifique /healthz (version: 1.0.4).
+4) O codigo corrige DB_NAME=locarcrm para u426849489_locarcrm
+   SOMENTE quando DB_USER=u426849489_locarcrm.
+5) Nunca publique senhas em arquivos, prints ou chats.
+6) Nao importe SQL outra vez; as tabelas existentes ja foram criadas.
